@@ -11,14 +11,16 @@ import heart from "src/assets/images/heart.png";
 
 function Info() {
   const [counter, setCounter] = React.useState(60);
-  setInterval(() => {
-    if (counter === -1) setCounter(60);
-    else setCounter(counter - 1);
-  }, 2000);
-
-  // useEffect(() => {
+  // setInterval(() => {
   //   if (counter === -1) setCounter(60);
-  // }, [counter]);
+  //   else setCounter(counter - 1);
+  // }, 2000);
+
+  useEffect(() => {
+    const timer =
+      counter > 0 && setInterval(() => setCounter(counter - 1), 1000);
+    return () => clearInterval(timer);
+  }, [counter]);
 
   return (
     <div className="mt-3">
