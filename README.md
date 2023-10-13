@@ -1,8 +1,23 @@
-# React + Vite
+# React.JS Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+project Description
 
-Currently, two official plugins are available:
+- React.JS Library
+- React Router; Standard library for routing
+- Bootstrap 5: Reponsive UI library
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+```bash
+$ npm install
+```
+
+## Running the app
+
+```bash
+# development
+$ npm run dev
+
+# production mode
+$ npm run build
+```
