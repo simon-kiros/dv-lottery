@@ -11,10 +11,7 @@ function Layout() {
         <Route path="/home" element={<Home />} />
         <Route path="/start" element={<Start />} />
         <Route path="/step" element={<Step />} />
-        <Route
-          path="*"
-          element={<h2 className="text-center mt-4">404 Page Not Found</h2>}
-        />
+        <Route path="*" element={<Home />} />
       </Routes>
     </div>
   );
