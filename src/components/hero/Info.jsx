@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import "./Info.css";
 import Time from "./Time";
@@ -10,6 +10,13 @@ import clock from "src/assets/images/clock.png";
 import heart from "src/assets/images/heart.png";
 
 function Info() {
+  const [counter, setCounter] = React.useState(60);
+  setInterval(() => setCounter(counter - 1), 2000);
+
+  useEffect(() => {
+    if (counter === -1) setCounter(60);
+  }, [counter]);
+
   return (
     <div className="mt-3">
       <div>
@@ -31,7 +38,7 @@ function Info() {
         <Time name="DAYS" val="27" />
         <Time name="HOURS" val="24" />
         <Time name="MINUTES" val="60" />
-        <Time name="SECONDS" val="60" />
+        <Time name="SECONDS" val={counter} />
       </div>
       <div className="text-white mt-5 fs-6">
         <div>
