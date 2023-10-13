@@ -4,17 +4,18 @@ import Accord from "src/components/accordion/Accord";
 import Review from "src/components/review/Review";
 import Contact from "src/components/contact/Contact";
 import Footer from "src/components/footer/Footer";
+import Header from "src/components/header/Header";
 
 function Home() {
   return (
     <div className="">
       <Hero />
-      <div className="bg-light">
-        <div className="px-6 mt-5">
+      <div className="bg-light pt-5">
+        <div className="px-6 mt-5 ">
           <Accord />
         </div>
       </div>
-      <div className="bg-white px-6 mt-5">
+      <div className="bg-white px-6 mt-5 ">
         <Review />
       </div>
       <div className="px-6 mt-5">
