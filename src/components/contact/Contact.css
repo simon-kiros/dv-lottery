@@ -1,0 +1,23 @@
+.btn-subscribe {
+  position: relative;
+  top: 0;
+  background-color: #fd816b;
+  border-radius: 10px;
+  padding: 3px 12px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-subscribe:hover {
+  background-color: #d4482f;
+  border-radius: 10px;
+  padding: 3px 12px;
+  color: white;
+}
+
+.btn-subscribe img {
+  height: 15px;
+  width: 15px;
+  margin-left: 6px;
+  filter: brightness(0) invert(1);
+}

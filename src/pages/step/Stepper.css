@@ -1,0 +1,55 @@
+.progressbar {
+  list-style: none;
+  position: relative;
+}
+
+.counter .circle {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  line-height: 1.88em;
+  margin-right: 20px;
+  z-index: 9999;
+  background-color: #01264a;
+}
+
+.counter.active .circle {
+  background-color: white;
+}
+
+.counter .title {
+  color: white;
+  font-size: 16px;
+}
+
+.counter.active .title {
+  font-weight: bold;
+}
+
+.connect div {
+  border-left: 5px solid white;
+  height: 50px;
+  position: relative;
+}
+
+.counter {
+  position: relative;
+  height: 70px;
+}
+
+.counter:not(:last-child)::after {
+  position: absolute;
+  content: "";
+  border-left: 3px solid white;
+  height: 60px;
+  width: 100%;
+  top: 23px;
+  left: 6px;
+  border-left-style: dotted;
+}
+
+.counter.active::after {
+  border-left-style: solid;
+}

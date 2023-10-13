@@ -1,0 +1,7 @@
+.hero {
+  background-image: url("src/assets/images/Home.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 1014px;
+  /* width: 1513px; */
+}

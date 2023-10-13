@@ -1,0 +1,15 @@
+.footer-top {
+  background-color: #002a54;
+  padding: 50px;
+}
+
+.footer-bottom {
+  background-color: #001c33;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-logo {
+  height: 70px;
+}

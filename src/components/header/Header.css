@@ -1,0 +1,28 @@
+.header button {
+  height: 50px;
+  border-color: white;
+}
+
+.header .us {
+  height: 17px;
+}
+
+.bg-primary {
+  background-color: #1f3655 !important;
+}
+
+.nv {
+  padding: 0 30px;
+  border-radius: 20px;
+}
+
+.nv .btn-outline-success {
+  border: 2px solid white;
+  font-weight: bold;
+  cursor: default !important;
+}
+
+.nv .btn-outline-success:hover {
+  color: black !important;
+  border-color: green;
+}

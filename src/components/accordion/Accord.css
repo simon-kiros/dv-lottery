@@ -1,0 +1,9 @@
+.accordion-button {
+  background-color: rgb(248, 249, 250) !important;
+  color: #4ac97d !important;
+  font-size: 35px !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}

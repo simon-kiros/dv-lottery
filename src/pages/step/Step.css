@@ -1,0 +1,9 @@
+#gender option[value="male"] {
+  background: url("src/assets/images/CN.png") center / contain no-repeat;
+}
+select#gender option[value="female"] {
+  background-image: url(female.png);
+}
+select#gender option[value="others"] {
+  background-image: url(others.png);
+}

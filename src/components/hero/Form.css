@@ -1,0 +1,48 @@
+.arrowRight {
+  height: 40px;
+  width: 40px;
+}
+
+.hero-form input {
+  background-color: lightgrey;
+}
+
+select::placeholder,
+select.placeholder-hidden {
+  color: grey;
+  background-color: lightgrey;
+}
+
+.hero-form select {
+  color: gray;
+  background-color: lightgrey;
+}
+
+.btn-success,
+.btn-success:hover {
+  background-color: #4ac97d;
+  border-color: #4ac97d;
+  font-weight: bold;
+}
+
+.arrowRight {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
+    brightness(118%) contrast(119%);
+}
+
+.arrowRight {
+  animation: linear infinite;
+  animation-name: run;
+  animation-duration: 3s;
+}
+@-webkit-keyframes run {
+  0% {
+    transform: translate(-1em, 0);
+  }
+  50% {
+    transform: translate(0.8em, 0);
+  }
+  100% {
+    transform: translate(-1em, 0);
+  }
+}
